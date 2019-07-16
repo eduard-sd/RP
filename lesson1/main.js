@@ -47,7 +47,7 @@ var animation = bodymovin.loadAnimation({
     rederer: 'svg',
     loop: true,
     autoplay: true,
-    path: "data/1/data1.json"
+    path: "data/1/data.json"
 });
 
 var animation2 = bodymovin.loadAnimation({
@@ -68,3 +68,10 @@ var animation3 = bodymovin.loadAnimation({
 });
 
 
+var animation4 = bodymovin.loadAnimation({
+    container: document.getElementById('id4'),
+    rederer: 'svg',
+    loop: true,
+    autoplay: true,
+    path: "data/4/data.json"
+});
